@@ -48,7 +48,7 @@ li{
     padding:8px;
     padding-left:12px;
     padding-right:12px;
-    border: none;
+    border: white;
     border-radius: 8px;
     color:white;
     background: #3882f6;
@@ -85,4 +85,58 @@ li{
     width:175px;
     border:#3882f6;
     border-radius: 20px;
+}
+
+.footer{
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color: #e5e7eb;
+}
+.quote{
+    width:750px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+}
+.sign{
+    align-self:flex-end;
+    font-weight: 800;
+    font-style:normal;
+}
+.action{
+    padding:100px;
+}
+.bar{
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap:20px;
+    padding-top:100px;
+    padding-bottom:100px;
+    background-color:#3882f6;
+    border-radius: 10px;
+}
+.put-color{
+    color:#e5e7eb;
+}
+.sign-up2{
+    padding:8px;
+    padding-left:12px;
+    padding-right:12px;
+    border: 3px white;
+    border-radius: 8px;
+    color:white;
+    background: #3882f6; 
+}
+.put-color.and{
+    font-size: 24px;
+    font-weight: 800;
 }
